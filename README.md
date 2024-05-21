@@ -6,21 +6,31 @@ This repository contains a script to enable root login with password authenticat
 
 ### Clone the Repository
 First, clone the repository to your local machine:
-
-```git clone https://github.com/JunaidJagirani/Enable-Root-Login-SSH.git
-cd Enable-Root-Login-SSH`
-
+```bash
+git clone https://github.com/JunaidJagirani/Enable-Root-Login-SSH.git
+cd Enable-Root-Login-SSH
+```
 
 ### Make the Script Executable
 Make the script executable by running:
-
-```chmod +x enable_root_login.sh`
+```bash
+chmod +x enable_root_login.sh
+```
 
 
 ### Run the Script
 Execute the script to enable root login with password authentication:
-
+```bash
 ./enable_root_login.sh
+```
+## All in One Command
+Just copy and paste it on linux server note: you need a root access for that
+```bash
+git clone https://github.com/JunaidJagirani/Enable-Root-Login-SSH.git
+cd Enable-Root-Login-SSH
+chmod +x enable_root_login.sh
+./enable_root_login.sh
+```
 
 ## What the Script Does
 
@@ -63,6 +73,7 @@ Thank you for using this script. If you find it useful, consider giving the repo
 
 If you have any questions or need further assistance, feel free to reach out.
 
+Regards: Junaid Jagirani
 ----------
 
 **Note:** This script is intended for use on systems where security policies permit root login with password authentication. Always adhere to your organization's security policies and best practices.
