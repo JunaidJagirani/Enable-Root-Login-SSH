@@ -12,13 +12,13 @@ cd Enable-Root-Login-SSH
 Make the Script Executable
 Make the script executable by running:
 
-'''bash
+```bash
 Copy code
 chmod +x enable_root_login.sh
 Run the Script
 Execute the script to enable root login with password authentication:
 
-'''bash
+```bash
 Copy code
 ./enable_root_login.sh
 What the Script Does
